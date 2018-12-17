@@ -1,0 +1,55 @@
+{"properties": [{
+  "name": "com.mx.santander.commons.session.enable",
+  "type": "java.lang.Boolean",
+  "description": "permite habilitar la sesion en el microservicio"
+},
+{
+  "name": "com.mx.santander.commons.service.timer.enable",
+  "type": "java.lang.Boolean",
+  "description": "activa el aspeto que toma el tiempo de respuesta del servicio, por default es true"
+},
+{
+  "name": "com.mx.santander.commons.service.dto.enable",
+  "type": "java.lang.Boolean",
+  "description": "activa el aspeto que valida requestTO y responseTO, por default es true"
+},
+{
+  "name": "com.mx.santander.commons.channel.access.enable",
+  "type": "java.lang.Boolean",
+  "description": "activa el aspeto que valida el acceso por header, por default es false"
+},
+{
+  "name": "com.mx.santander.commons.packageScan",
+  "type": "java.lang.String",
+  "description": "indica el paquete al que se aplicara las funcionalidades de commons"
+},
+{
+  "name": "com.mx.santander.commons.message.prefix",
+  "type": "java.lang.String",
+  "description": "indica el prefix con el que se buscaran los mensajes en las propiedades"
+},
+{
+  "name": "com.mx.santander.commons.message.split",
+  "type": "java.lang.String",
+  "description": "indica el el caracter separador de los mensajes [Header|Mesange]"
+},
+{
+  "name": "com.mx.santander.commons.message.generic.success.messageCode",
+  "type": "java.lang.Integer",
+  "description": "indica el codigo de operacion de exito, por default es 0"
+},
+{
+  "name": "com.mx.santander.commons.message.generic.error.code",
+  "type": "java.lang.String",
+  "description": "indica el codigo de error, por default es MSCM0"
+},
+{
+  "name": "com.mx.santander.commons.message.generic.error.messageCode",
+  "type": "java.lang.Integer",
+  "description": "indica el codigo de operacion de error, por default es -1"
+},
+{
+  "name": "com.mx.santander.commons.cache.enable",
+  "type": "java.lang.Boolean",
+  "description": "Indica si se habilita el cache por medio de redis, por default es false"
+}]}

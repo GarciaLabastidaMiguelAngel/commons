@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.mx.santander.commons.autoconfigurations.CommonsAutoConfiguration,\
+com.mx.santander.commons.autoconfigurations.SessionAutoConfiguration,\
+com.mx.santander.commons.autoconfigurations.CacheAutoConfiguration,\
+com.mx.santander.commons.autoconfigurations.ChannelAutoConfiguration,\
+com.mx.santander.commons.autoconfigurations.SSLAutoConfiguration
